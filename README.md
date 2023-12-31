@@ -1,10 +1,11 @@
 
-Table of Contents (TBD)
--
--
--
--
--
+Table of Contents 
+Tableau Dashboard
+Motivation
+Questions
+Technologies Used
+Data Sources
+Conclusion
 
 Motivation:
 My motivation to explore this topic originates from my direct involvement in collecting COVID-19 data in Davidson County 
@@ -23,20 +24,22 @@ Now equipped with newly acquired skills in data analysis, I am excited about con
 impact of COVID-19 on mental health. 
 
 Questions:
-Is there a correlation between the rates of COVID-19 cases and the prevalence of depression and anxiety in 
+1. Is there a correlation between the rates of COVID-19 cases and the prevalence of depression and anxiety in 
 the population?
 
-How do mental health outcomes vary across different demographic groups, including age, gender, ethnicity, 
-and socioeconomic status, during the COVID-19? 
+2. How does the data change over time? Are there any trends or seasonal patterns?
 
-Is there a correlation between age groups with the highest rates of COVID-19 cases in Davidson County and those 
-experiencing the most severe mental health effects during the pandemic?
+3. Which demographic gorups have been most affected by mental illness during COVID-19?
 
-How has the prevalence of anxiety and depression changed over time, specifically during the period from 
-March 2020 to April 2023, based on the collected COVID-19 and mental health data?
+4. What can we learn from examining the subgroups that have been most impacted?
 
-which demographic groups appear to be most affected by mental health challenges linked to the COVID-19 
-pandemic?
+5. Identify the Top 10 States with the Highest Average Rates of Anxiety and Depression
+
+Stretch question ----
+
+What common factors or patterns might contribute to the high mental health illness 
+rates in the neighboring states within the top 10? Are there regional trends, shared demographics, 
+or environmental influences that could help explain this clustering of elevated mental health concerns?
 
 
 Technologies Used:
@@ -46,19 +49,14 @@ Git - for version control
 
 
 Data Sources:
-To answer the questions above, I used the following sources to collect the datasets used in my analysis:
+To answer the questions above, I used the following sources to obtain the datasets used in my analysis:
 
-Indicators of Anxiety or Depression Based on Reported Frequency of Symptoms During Last 7 Days:
+Mental Helath - Household Pulse Survey ( April 2020 - April 2023)
+    -Mental Health Care - Household Pulse Survey - COVID-19 (cdc.gov)
 
-https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp/about_data
+COVID-19 Cases- ourworldindata.org  ( April 2020 - April 2023)
+  -Coronavirus (COVID-19) Cases - Our World in Data
 
-US COVID-19 cases and deaths by state:
-
-https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
-
-COVID-19 public Mandates: multipule data pulled from this website 
-
-https://statepolicies.com/data/library/
-- Stay-at-Home Order data 
-- Closures & Reopening data 
+Stay-at-Home Order - statepolicies.com
+-Data Library – CUSP (statepolicies.com)
 
